@@ -67,6 +67,6 @@ It provides a foundation for **commercial IoT dashboards and remote control appl
 
 ---
 
-## ✅ Summary
+## Summary
 This activity highlights **software-hardware integration** in IoT systems.  
 Through the combinination of Python and Arduino, users can **remotely control physical devices**, implement **state-aware toggling**, and design **modular, maintainable code** suitable for real-world IoT applications.
