@@ -1,18 +1,18 @@
 # **Laboratory Activity #2 – Working with Analog Signals: Fading LEDs**
 
-## 📘 Project Overview
+## Project Overview
 This activity demonstrates how to **simulate analog behavior** on a digital Arduino board using **Pulse Width Modulation (PWM)**. Unlike simple on/off control, PWM allows LEDs to **gradually fade in and out**, creating smooth transitions in brightness. This project builds on the previous running-light activity by introducing **variable output control** through software.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 1. Explore **analog signal simulation** using a digital microcontroller.  
 2. Understand **PWM** and how it controls LED brightness.  
 3. Apply nested loops and variable control to manage **dynamic output**.
 
 ---
 
-## 💡 System Features
+## System Features
 - Smooth **fade-in** and **fade-out** sequences across five LEDs.  
 - LEDs light up in order from **pin 12 → pin 8** and fade back in reverse.  
 - Each LED’s brightness changes gradually, rather than snapping on/off instantly.  
@@ -20,14 +20,14 @@ This activity demonstrates how to **simulate analog behavior** on a digital Ardu
 
 ---
 
-## 🛠 Hardware Setup
+## Hardware Setup
 - **Arduino Uno** connected to a breadboard.  
 - **LEDs:** Connected to **pins 12, 11, 10, 9, and 8**.  
 - **Power:** Arduino powered via USB or external source.  
 
 ---
 
-## ⚙ How It Works
+## How It Works
 
 ### **1️⃣ Signal Processing (PWM)**
 - Arduino uses **Pulse Width Modulation (PWM)** to simulate analog voltages.  
@@ -53,7 +53,7 @@ This activity demonstrates how to **simulate analog behavior** on a digital Ardu
 
 ---
 
-## 📡 IoT Concepts Demonstrated
+## IoT Concepts Demonstrated
 - **Analog vs. Digital Output:** Shows how digital devices can simulate analog behavior.  
 - **Pulse Width Modulation (PWM):** Controls power delivery to LEDs for dimming effects.  
 - **Nested Control Structures:** Loops inside loops manage both **fade duration** and **LED sequence**.  
@@ -61,5 +61,5 @@ This activity demonstrates how to **simulate analog behavior** on a digital Ardu
 
 ---
 
-## ✅ Summary
+## Summary
 This activity reinforces the concept that **digital devices can mimic analog behavior** through software. By combining PWM with nested loops and variable state control, the system creates a **smooth fading LED sequence**, providing hands-on experience with signal modulation, dynamic control, and advanced Arduino programming.
