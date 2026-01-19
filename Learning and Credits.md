@@ -1,0 +1,7 @@
+## Learning Summary and Credits
+
+Throughout these laboratory activities, I have progressively developed a strong foundation in **IoT systems, embedded programming, and software-hardware integration**. Starting from basic digital control with LEDs and running light circuits, I learned how to manipulate **digital and analog signals** on the Arduino, implement **Pulse Width Modulation (PWM)** for smooth fading effects, and apply **sensor calibration** and **thresholding** for environmental monitoring.  
+
+Progressing further, I explored **serial communication**, both one-way and bi-directional, bridging the gap between the Arduino and Python to create **interactive and responsive systems**. Activities involving **Python-Arduino integration** and **web-controlled IoT systems with FastAPI** expanded my understanding of **client-server architectures, REST APIs, and asynchronous communication**, enabling me to design full-stack IoT applications with **modular code, state management, and user interfaces**.  
+
+Collectively, these experiences have deepened my practical knowledge in **IoT design, coding logic, sensor interfacing, and real-time data processing**, while also enhancing my problem-solving and system design skills. I would like to express my sincere gratitude to **Mr. Johnroe Paulo Cañamaque (Sir Paulo)** for his guidance and mentorship, and to my **group members**, whose collaboration and teamwork were essential in completing all the activities successfully.
