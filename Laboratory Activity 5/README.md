@@ -1,6 +1,6 @@
 # **Laboratory Activity #5 – Python-Arduino Integration**
 
-## 📘 Project Overview
+## Project Overview
 This activity bridges **high-level software** and **embedded hardware** by using Python as an external control interface for Arduino.  
 Unlike previous labs that relied on the Arduino IDE Serial Monitor, this project demonstrates a **client-server style architecture**, where a Python script acts as a client and the Arduino functions as the server.  
 
@@ -8,7 +8,7 @@ It provides a foundation for **commercial IoT dashboards and remote control appl
 
 ---
 
-## 🎯 System Features
+## System Features
 - **Remote Control Interface:** Python script presents a menu to toggle LEDs:
   - `[R] Red ON/OFF`  
   - `[G] Green ON/OFF`  
@@ -20,7 +20,7 @@ It provides a foundation for **commercial IoT dashboards and remote control appl
 
 ---
 
-## 🛠 Hardware Setup
+## Hardware Setup
 - **LED Pins:**  
   - Red → Pin 8  
   - Green → Pin 9  
@@ -30,7 +30,7 @@ It provides a foundation for **commercial IoT dashboards and remote control appl
 
 ---
 
-## ⚙ How It Works
+## How It Works
 
 ### **1️⃣ User Input (Python Client)**
 - Python script displays a **menu of commands**.  
@@ -59,7 +59,7 @@ It provides a foundation for **commercial IoT dashboards and remote control appl
 
 ---
 
-## 📡 IoT Concepts Demonstrated
+## IoT Concepts Demonstrated
 - **Cross-Platform Communication:** Integrates Python and Arduino (C++) via **Serial/UART protocol**.  
 - **State Management:** Tracks hardware state to allow toggling between On and Off.  
 - **Modular Design:** Separates hardware definitions and functions into a header file for clean, maintainable code.  
