@@ -1,12 +1,12 @@
 # **Laboratory Activity #7 – Web-Controlled IoT System with FastAPI**
 
-## 📘 Project Overview
+## Project Overview
 This activity demonstrates a **full-stack IoT system**, combining **web technologies**, **Python backend**, and **Arduino hardware control**.  
 Unlike previous labs that relied on direct Serial or Python CLI control, this project allows users to **control LEDs via a web interface**, simulating the architecture behind modern smart home devices.
 
 ---
 
-## 🎯 System Features
+## System Features
 - **Web-Based Interface:** Styled HTML page with buttons to toggle **Red, Green, and Blue LEDs**, as well as **All On/All Off** switches.  
 - **Python FastAPI Backend:** Receives HTTP requests from the frontend and translates them into Arduino commands.  
 - **Instant Hardware Response:** Arduino toggles LEDs connected to pins **5, 6, and 7** in real-time.  
@@ -14,7 +14,7 @@ Unlike previous labs that relied on direct Serial or Python CLI control, this pr
 
 ---
 
-## 🛠 Hardware Setup
+## Hardware Setup
 - **Arduino Pins:**  
   - Red → Pin 7  
   - Green → Pin 6  
@@ -24,7 +24,7 @@ Unlike previous labs that relied on direct Serial or Python CLI control, this pr
 
 ---
 
-## ⚙ How It Works
+## How It Works
 
 ### **1️⃣ Three-Tier Architecture**
 1. **Presentation Layer (Frontend):**  
@@ -58,7 +58,7 @@ Unlike previous labs that relied on direct Serial or Python CLI control, this pr
 
 ---
 
-## 📡 IoT Concepts Demonstrated
+## IoT Concepts Demonstrated
 - **REST API:** Standardized endpoints for hardware control over a network.  
 - **HTTP Protocol:** Uses GET requests to trigger actions.  
 - **Asynchronous JavaScript:** Ensures responsive web interface while communicating with the server.  
@@ -66,6 +66,6 @@ Unlike previous labs that relied on direct Serial or Python CLI control, this pr
 
 ---
 
-## ✅ Summary
+## Summary
 This lab demonstrates a **modern, web-controlled IoT system**, integrating frontend, backend, and hardware layers.  
 It teaches **full-stack IoT design**, including **REST APIs, asynchronous web communication**, and **Serial hardware control**, providing a blueprint for real-world smart home and IoT applications.
